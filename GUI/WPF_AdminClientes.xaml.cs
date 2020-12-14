@@ -33,7 +33,7 @@ namespace GUI
         {
             InitializeComponent();
         }
-
+        //cambio 2
         private async void CargarListadoActividad()
         {
             try
