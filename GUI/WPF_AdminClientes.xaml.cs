@@ -23,7 +23,7 @@ namespace GUI
     /// Lógica de interacción para WPF_AdminClientes.xaml
     /// </summary>
     public partial class WPF_AdminClientes : MetroWindow
-
+     //ESTO ES UN CAMBIOOOO
     {
         ServiceCliente sc = new ServiceCliente();
         ServiceActividadEmpresa ae = new ServiceActividadEmpresa();
@@ -33,7 +33,7 @@ namespace GUI
         {
             InitializeComponent();
         }
-        //cambio 2
+
         private async void CargarListadoActividad()
         {
             try
